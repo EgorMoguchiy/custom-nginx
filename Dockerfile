@@ -1,4 +1,4 @@
 FROM nginx:alpine
 
-RUN sudo apt update
+RUN apt update
 EXPOSE 80 443
