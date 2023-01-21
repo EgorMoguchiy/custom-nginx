@@ -1,4 +1,4 @@
 FROM nginx:alpine
 
-RUN apt update
+RUN apk update
 EXPOSE 80 443
