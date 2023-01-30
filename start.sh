@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t custom-nginx .
-docker run --name custom-nginx -p 80:80 -d custom-nginx
+sudo docker build -t custom-nginx .
+sudo docker run --name custom-nginx -p 80:80 -d custom-nginx

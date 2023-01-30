@@ -1,5 +1,5 @@
 #!/bin/bash
 
-docker stop custom-nginx
-docker rm custom-nginx
-docker rmi custom-nginx
+sudo docker stop custom-nginx
+sudo docker rm custom-nginx
+sudo docker rmi custom-nginx
