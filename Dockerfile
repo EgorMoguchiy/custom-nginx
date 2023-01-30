@@ -1,5 +1,8 @@
 FROM nginx:alpine
 
 RUN apk update
-COPY index.html /usr/share/nginx/html
+RUN mkdir -p "/etc/letsencrypt/"
+
+COPY ./letsencrypt /etc/
+
 EXPOSE 80 443
