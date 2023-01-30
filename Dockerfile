@@ -6,5 +6,6 @@ RUN rm /etc/nginx/conf.d/default.conf
 COPY ./nginx/conf.d/* /etc/nginx/conf.d/
 COPY ./letsencrypt/ /etc/letsencrypt
 COPY ./var/www/ /var/www/
+COPY ./nginx/nginx.conf /etc/nginx/
 
 EXPOSE 80 443
