@@ -9,4 +9,4 @@ COPY ./var/www/ /var/www/
 COPY ./nginx/nginx.conf /etc/nginx/
 COPY ./media/ /media/
 
-EXPOSE 80 443 88 99
+EXPOSE 80 443
