@@ -1,5 +1,5 @@
-version: "3.8"
-servises:
+version: '3.8'
+services:
   custom-nginx:
     image: imaslice/custom-nginx:latest
     ports:
